@@ -1,0 +1,62 @@
+.container {
+  width: 35vw;
+  overflow: auto;
+  transition: all 0.5s ease;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 0px #58641d, -10px 0px #58641d;
+}
+
+form {
+  margin: 20px 0px 10px 0px !important;
+}
+
+.form-label {
+  font-size: 12px;
+  opacity: 75%;
+}
+
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+select {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-bottom: 5px !important;
+}
+
+a,
+span {
+  color: white !important;
+}
+
+.form-control-md:focus {
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 3px solid #58641d !important;
+  border: none;
+}
+
+.error {
+  color: #f05454;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .container {
+    width: 100vw;
+  }
+}

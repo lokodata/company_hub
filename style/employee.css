@@ -1,0 +1,76 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.container {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.projects {
+  margin-top: 20px;
+}
+
+nav a,
+span {
+  color: white !important;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-color: #58641d;
+}
+
+.table td {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #7b904b;
+  border-radius: 8px;
+  border: 6px solid #fff;
+}
+
+.table tr {
+  border-bottom: 1px solid #58641d;
+}
+
+.functions {
+  padding: 0px 0px 0px 0px !important;
+}
+
+.form-control-md {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.form-control-md:focus {
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 3px solid #58641d !important;
+  border: none;
+}
+
+@media screen and (max-width: 580px) {
+  .header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .functions {
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+
+  .functions a,
+  form {
+    padding-top: 10px;
+  }
+}
